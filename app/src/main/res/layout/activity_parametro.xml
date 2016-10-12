@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/fondo"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context="com.adryan.app.ParametroAct">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/descriptedText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblServer"/>
+
+            <EditText android:id="@+id/txtIpServer"
+                style="@style/txtEditar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:editable="true"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:inputType="text"/>
+
+            <TextView
+                style="@style/descriptedText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblUrlSmtp"/>
+
+            <EditText android:id="@+id/txtSmtpServer"
+                style="@style/txtEditar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:editable="true"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:inputType="text"/>
+
+            <TextView
+                style="@style/descriptedText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblPortSmtp"/>
+
+            <EditText android:id="@+id/txtPortSMTP"
+                style="@style/txtEditar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:editable="true"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:inputType="number"/>
+
+            <TextView
+                style="@style/descriptedText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblPortSsl"/>
+
+            <EditText android:id="@+id/txtPortSSL"
+                style="@style/txtEditar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:editable="true"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:inputType="number"/>
+
+            <TextView
+                style="@style/descriptedText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblMailFrom"/>
+
+            <EditText android:id="@+id/txtMailFrom"
+                style="@style/txtEditar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:editable="true"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:inputType="textEmailAddress"/>
+
+            <TextView
+                style="@style/descriptedText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblPwdMailFrom"/>
+
+            <EditText android:id="@+id/txtPwdMailFrom"
+                style="@style/txtEditar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:editable="true"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:inputType="textPassword"/>
+
+            <TextView
+                style="@style/descriptedText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblMailTo"/>
+
+            <EditText android:id="@+id/txtMailTo"
+                style="@style/txtEditar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:editable="true"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:inputType="textEmailAddress"/>
+
+            <TextView
+                style="@style/descriptedText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblSubjectMail"/>
+
+            <EditText android:id="@+id/txtSubjectMail"
+                style="@style/txtEditar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:editable="true"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:inputType="text"/>
+
+            <TextView
+                style="@style/descriptedText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblBodyMail"/>
+
+            <EditText android:id="@+id/txtBodyMail"
+                style="@style/txtEditar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:editable="true"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:inputType="text"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout android:id="@+id/layout4"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:orientation="vertical">
+
+        <LinearLayout android:id="@+id/layoutBtn1"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button android:id="@+id/btnAceptarPar"
+                style="@style/menuButton"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="@string/btnAccept"/>
+
+            <Button android:id="@+id/btnCancelarPar"
+                style="@style/menuButton"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/btnCancel"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,80 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    tools:context="com.adryan.app.Ingreso">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <TextView android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:keepScreenOn="true"
+        android:textColor="@color/acero"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:layout_marginTop="100sp"
+        android:gravity="top|center"
+        android:text="@string/txtLogo" />
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/acero"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <EditText style="@style/lblShow"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtServer"
+                android:hint="@string/hintServer"
+                android:inputType="text"
+                android:nextFocusDown="@+id/spCia"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spCia"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:spinnerMode="dialog"
+                android:prompt="@string/title_prompt_cia"/>
+
+            <EditText style="@style/lblShow"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtUser"
+                android:hint="@string/hintUsuario"
+                android:inputType="text"
+                android:nextFocusDown="@+id/edtPassword"/>
+
+            <EditText style="@style/lblShow"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtPassword"
+                android:hint="@string/hintPassword"
+                android:inputType="textPassword"
+                />
+
+            <Button android:id="@+id/btnIngresar"
+                style="@style/botones"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btnIngresar" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context="com.adryan.app.DetalleMarcas">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <GridView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:numColumns="auto_fit"
+            android:columnWidth="200dp"
+            android:verticalSpacing="2dp"
+            android:horizontalSpacing="2dp"
+            android:stretchMode="columnWidth"
+            android:id="@+id/gdvDatos"
+            android:layout_marginBottom="10dp"
+            android:listSelector="@drawable/gridview_item"/>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3.5"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button android:id="@+id/btnNuevoDato"
+                style="@style/menuButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/btnNew"
+                android:gravity="center"
+                android:layout_weight="0.5"/>
+
+            <Button android:id="@+id/btnEditDato"
+                style="@style/menuButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/btnEditar"
+                android:gravity="center"
+                android:layout_weight="0.5"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button android:id="@+id/btnEliminarDato"
+                style="@style/menuButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/btnEliminar"
+                android:gravity="center"
+                android:layout_weight="0.5"/>
+
+            <Button android:id="@+id/btnCancelarDato"
+                style="@style/menuButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/btnCancel"
+                android:gravity="center"
+                android:layout_weight="0.5"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

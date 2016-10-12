@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@drawable/item_gridview">
+
+    <TextView android:id="@+id/txtMatriculaDet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|right"
+        android:padding="2dp"/>
+
+    <TextView android:id="@+id/txtTrabajadorDet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|left"
+        android:padding="2dp"/>
+
+    <TextView android:id="@+id/txtCentroCostoDet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|left"
+        android:padding="2dp"/>
+
+    <TextView android:id="@+id/txtActividadDet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|left"
+        android:padding="2dp"/>
+
+    <TextView android:id="@+id/txtLaborDet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|left"
+        android:padding="2dp"/>
+
+    <TextView android:id="@+id/txtHoraMarcaDet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|left"
+        android:padding="2dp"/>
+
+    <TextView android:id="@+id/txtIdMarca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|left"
+        android:padding="2dp"
+        android:visibility="invisible"/>
+
+    <TextView android:id="@+id/txtCodigoUnicoDet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|left"
+        android:padding="2dp"
+        android:visibility="invisible"/>
+
+</LinearLayout>

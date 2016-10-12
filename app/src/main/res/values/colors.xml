@@ -1,0 +1,11 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="blanco">#ffffff</color>
+    <color name="acero">#086A87</color>
+    <color name="fondo">#F5DA81</color>
+    <color name="resaltado">#FE2E2E</color>
+    <color name="fondito">#FE9A2E</color>
+    <color name="item_grid">#77A7C1</color>
+
+</resources>

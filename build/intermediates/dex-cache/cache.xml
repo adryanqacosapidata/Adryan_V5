@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Desarollos\Ecosac\Tareo_Movil\TareoMovil_LV\Adryan_V4\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="D:\Desarollos\Ecosac\Tareo_Movil\TareoMovil_LV\Adryan_V4\app\build\intermediates\pre-dexed\release\classes-9a8ec59b74a6088fbafbfaa4a954dae0a707eafb.jar" />
+    </item>
+    <item
+        jar="C:\AndroidStudio\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="D:\Desarollos\Ecosac\Tareo_Movil\TareoMovil_LV\Adryan_V4\app\build\intermediates\pre-dexed\release\support-annotations-20.0.0-00d010623c4278a8848e14ec48bd09c3e62082b2.jar" />
+    </item>
+    <item
+        jar="D:\Desarollos\Ecosac\Tareo_Movil\TareoMovil_LV\Adryan_V4\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
+        <dex dex="D:\Desarollos\Ecosac\Tareo_Movil\TareoMovil_LV\Adryan_V4\app\build\intermediates\pre-dexed\release\classes-1100ae3355e687254fad369f47173f0b0a7922a1.jar" />
+    </item>
+    <item
+        jar="D:\Desarollos\Ecosac\Tareo_Movil\TareoMovil_LV\Adryan_V4\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="D:\Desarollos\Ecosac\Tareo_Movil\TareoMovil_LV\Adryan_V4\app\build\intermediates\pre-dexed\release\internal_impl-20.0.0-7099d9b9aa18567fd3521e362d1375415e0932cc.jar" />
+    </item>
+    <item
+        jar="D:\Desarollos\Ecosac\Tareo_Movil\TareoMovil_LV\Adryan_V4\libs\mail.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="D:\Desarollos\Ecosac\Tareo_Movil\TareoMovil_LV\Adryan_V4\app\build\intermediates\pre-dexed\release\mail-bf9d6b6e8b3cd8afa66a90a6b7f9763a6238822c.jar" />
+    </item>
+    <item
+        jar="D:\Desarollos\Ecosac\Tareo_Movil\TareoMovil_LV\Adryan_V4\libs\ksoap2-android-assembly-2.4-jar-with-dependencies.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e8796346a9191a019e936210a2dc50662c57594b">
+        <dex dex="D:\Desarollos\Ecosac\Tareo_Movil\TareoMovil_LV\Adryan_V4\app\build\intermediates\pre-dexed\release\ksoap2-android-assembly-2.4-jar-with-dependencies-588803ce0e008ac1c12b3ecfb6d8ecc960999f19.jar" />
+    </item>
+    <item
+        jar="D:\Desarollos\Ecosac\Tareo_Movil\TareoMovil_LV\Adryan_V4\libs\activation.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="F:\Victor\Adryan_V4\app\build\intermediates\pre-dexed\release\activation-79c7a9241fb1d1a58d77f274a63a0cd918a8637c.jar" />
+    </item>
+    <item
+        jar="D:\Desarollos\Ecosac\Tareo_Movil\TareoMovil_LV\Adryan_V4\libs\additionnal.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="D:\Desarollos\Ecosac\Tareo_Movil\TareoMovil_LV\Adryan_V4\app\build\intermediates\pre-dexed\release\additionnal-9e03704c67689db4b1dbad73fa28679ea684f4e6.jar" />
+    </item>
+    <item
+        jar="D:\Desarollos\Ecosac\Tareo_Movil\TareoMovil_LV\Adryan_V4\libs\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="D:\Desarollos\Ecosac\Tareo_Movil\TareoMovil_LV\Adryan_V4\app\build\intermediates\pre-dexed\release\gson-2.2.4-3636da4ab55c46722007bff8e7b8b9e953a42e6e.jar" />
+    </item>
+
+</items>
